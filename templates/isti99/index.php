@@ -26,6 +26,7 @@ $this->_script = preg_replace('%window\.addEvent\(\'load\',\s*function\(\)\s*{\s
 <head>
 <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
 <meta content="telephone=no" name="format-detection">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <jdoc:include type="head" />
 <link href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/style.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-1.11.1.min.js"></script>
@@ -80,42 +81,42 @@ $this->_script = preg_replace('%window\.addEvent\(\'load\',\s*function\(\)\s*{\s
 	
 <div class="container">
 	
-	<div class="left">
-		<div class="leftsoc">
-			<h3>Мы в социальных сетях</h3>
-			<div class="soc-wrap">
-				<!--noindex--><a rel="nofollow" href="https://vk.com/club130080017" class="soc-block soc-vk" target="_blank">В контакте</a><!--/noindex-->
-				<!--noindex--><a rel="nofollow" href="https://ok.ru/profile/571571185998" class="soc-block soc-ok" target="_blank">Одноклассники</a><!--/noindex-->
-			</div>
-			<div class="soc-info">Добавьтесь в друзья и получите скидку до 50%!</div>
-		</div>
-		<div class="leftmenu">
-			<jdoc:include type="modules" name="leftmenu" style="xhtml"/>
-		</div>
-	</div>
-	
 	<div class="main">
 	
-	<div class="content">
-		<div class="message_error"><jdoc:include type="message" /></div>
-		<jdoc:include type="component" />
-	</div>
+        <div class="content">
+            <div class="message_error"><jdoc:include type="message" /></div>
+            <jdoc:include type="component" />
+        </div>
     
-	 <div class="advent">
-		<a href="http://isti99.ru/nashi-mastera" class="adv1">
-			<p>Лучшие мастера</p>
-		</a>
-		<a href="http://isti99.ru/skidki" class="adv2">
-			<p>Скидки</p>
-		</a>
-		<a href="http://isti99.ru/aktsii" class="adv3">
-			<p>Акции</p>
-		</a>
-	</div> 
+         <div class="advent">
+            <a href="http://isti99.ru/nashi-mastera" class="adv1">
+                <p>Лучшие мастера</p>
+            </a>
+            <a href="http://isti99.ru/skidki" class="adv2">
+                <p>Скидки</p>
+            </a>
+            <a href="http://isti99.ru/aktsii" class="adv3">
+                <p>Акции</p>
+            </a>
+        </div>
     
 	</div>
+
+    <div class="left">
+        <div class="leftsoc">
+            <h3>Мы в социальных сетях</h3>
+            <div class="soc-wrap">
+                <!--noindex--><a rel="nofollow" href="https://vk.com/club130080017" class="soc-block soc-vk" target="_blank">В контакте</a><!--/noindex-->
+                <!--noindex--><a rel="nofollow" href="https://ok.ru/profile/571571185998" class="soc-block soc-ok" target="_blank">Одноклассники</a><!--/noindex-->
+            </div>
+            <div class="soc-info">Добавьтесь в друзья и получите скидку до 50%!</div>
+        </div>
+        <div class="leftmenu">
+            <jdoc:include type="modules" name="leftmenu" style="xhtml"/>
+        </div>
+    </div>
        
-	</div>
+</div>
 
 	<!--end-conteiner-->
 <div class="footer">
@@ -196,26 +197,28 @@ style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" tit
         
     </div>
 </div>
+
 <div class="form-box">
-<div class="form-wrap">
-<a class="obr-call" href="#">Записаться на прием</a>
-<div class="form-zakaz">
-           <form action="/mail.php" method="post">
-                            
+    <div class="form-wrap">
+        <a class="obr-call" href="#">Записаться на прием</a>
+        <div class="form-zakaz">
+            <form action="/mail.php" method="post">
+
                 <div class="form-input">
-                <input class="form-name" type="text" placeholder="Введите имя" required name="name" size="16" />
+                    <input class="form-name" type="text" placeholder="Введите имя" required name="name" size="16" />
                 </div>
-                                
+
                 <div class="form-input">
-                <input class="form-phone" type="tel" placeholder="телефон" required pattern="(\+?\d[- .]*){7,13}" title="Международный, государственный или местный телефонный номер" name="phone" size="16" />
+                    <input class="form-phone" type="tel" placeholder="телефон" required pattern="(\+?\d[- .]*){7,13}" title="Международный, государственный или местный телефонный номер" name="phone" size="16" />
                 </div>
-                                
+
                 <p><input class="form-submit" type="submit" name="submit" value="Отправить" /></p>
-                                
-          </form>
+
+            </form>
+        </div>
     </div>
-	</div>
 </div>
+
 <div class="scroll">Наверх</div>
 </body>
 </html>

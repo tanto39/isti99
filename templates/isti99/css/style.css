@@ -336,9 +336,6 @@ ul, ol{
 	height: 130px;
 	clear: both;
 }
-.footer-center{
-	z-index: 10000;
-}
 .isti-name{display: inline;}
 .metrika{
 	position: absolute;
@@ -823,6 +820,164 @@ body:after {
 	padding: 0;
 	margin: 0;
 	clear: both;
+}
+
+/*----adaptation----*/
+
+@media all and (min-width: 790px) {
+
+}
+
+@media all and (max-width: 1200px) {
+	.header {
+		height: 215px;
+	}
+	.center-header, .container, .footer-center {
+		width: 900px;
+	}
+	.topmenu {
+		width: 900px;
+		height: 50px;
+	}
+	.topmenu a {
+		padding: 15px 10px 15px 10px;
+	}
+	.logo {
+		width: 220px;
+		height: 200px;
+	}
+	.contacts {
+		background-size: 100% 100%;
+		width: 240px;
+		height: 200px;
+	}
+	.contacts a {
+		margin: 0 0 0 50px;
+	}
+	.adr {
+		margin: 0;
+	}
+	.adr, .time {
+		line-height: 19px;
+	}
+	.logo img {
+		max-width: 100%;
+	}
+	.slider {
+		left: 230px;
+		height: 180px;
+		overflow: hidden;
+	}
+	.slider,.sliderContent {
+		width: 410px;
+	}
+	.slider img{
+		max-width: 100%;
+	}
+}
+
+@media all and (max-width: 790px) {
+	.slider {display: none;}
+	.center-header, .container, .footer-center {
+		width: auto;
+	}
+	.main {
+		margin: 0;
+		overflow: hidden;
+	}
+	.left {
+		position: relative;
+		width: auto;
+	}
+	.soc-wrap {
+		overflow: hidden;
+		display: flex;
+	}
+	.leftmenu a {
+		width: auto;
+	}
+	.advent {
+		width: 200px;
+		margin: 10px auto;
+		height: auto;
+	}
+	.topmenu {
+		width: auto;
+		height: auto;
+		border-radius: 0;
+	}
+	.topmenu li {
+		display: block;
+		float: none;
+		border: 1px solid #C47D1B;
+		border-bottom: none;
+	}
+	.topmenu li a{
+		border: none;
+	}
+	.header {
+		height: auto;
+	}
+	.logo, .contacts {
+		position: relative;
+		margin: 0 auto;
+		display: block;
+		width: 260px;
+		height: 220px;
+	}
+	.logo, .topmenu {margin-top: 20px;}
+	.adr, .time {
+		font-size: 1.2em;
+		line-height: 1.3em;
+	}
+	.contacts a{
+		font-size: 1.1em;
+	}
+	.form-wrap, .obr-call {
+		width: auto;
+	}
+	.form-box {
+		position: relative;
+	}
+	.footer {
+		height: auto;
+	}
+	.content img {
+		width: 100%;
+		height: auto;
+	}
+	.content {
+		padding: 10px;
+	}
+	.photo-gallery {
+		margin: 0;
+	}
+	.gallery a {
+		height: auto;
+	}
+	.advent a {
+		border-right: none;
+	}
+	.content ul {
+		padding: 10px;
+	}
+	.copyright, .footer-contacts, .enterkursk, .metrika, .socbuttons {position: relative; left:0; top: 0;}
+	.footer-contacts p, .footer span, .copyright a, .copyright, .enterkursk a{
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+	.footer-center {
+		padding: 15px;
+	}
+	.socbuttons {
+		margin: 10px auto;
+	}
+	.scroll {
+		display: none !important;
+	}
+	.form-box {
+		bottom: 0;
+	}
 }
 
 
