@@ -149,6 +149,7 @@ ul, ol{
 /*---------header----------*/
 .header{
 	height: 260px;
+	padding-top: 15px;
 }
 .center-header{
 	position: relative;
@@ -925,7 +926,7 @@ body:after {
 		width: 260px;
 		height: 220px;
 	}
-	.logo, .topmenu {margin-top: 20px;}
+	.topmenu {margin-top: 20px;}
 	.adr, .time {
 		font-size: 1.2em;
 		line-height: 1.3em;
