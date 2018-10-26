@@ -330,6 +330,14 @@ ul, ol{
 .content p, .content h1{
 	margin-top: 20px;
 }
+.qr-wrap {
+	overflow: hidden;
+	background: #fff;
+	line-height: 0;
+}
+.img-qr {
+	width: 100%;
+}
 
 /*---------footer----------*/
 .footer{

@@ -114,6 +114,9 @@ $this->_script = preg_replace('%window\.addEvent\(\'load\',\s*function\(\)\s*{\s
         <div class="leftmenu">
             <jdoc:include type="modules" name="leftmenu" style="xhtml"/>
         </div>
+        <div class="leftmenu qr-wrap">
+            <img class="img-qr" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/qr.jpg" alt="Империя стиля" title="Империя стиля"/>
+        </div>
     </div>
        
 </div>
