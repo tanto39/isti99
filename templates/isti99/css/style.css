@@ -177,6 +177,15 @@ ul, ol{
 	font-size: 13px;
 	text-decoration: none;
 }
+.mob-phone {
+	display: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 2.2em;
+	font-family: arial;
+	margin: -20px 0 10px 0;
+}
+.footer-mob-phone {display: none;}
 .adres{
 	right: 0px;
 	top: 20px;
@@ -895,6 +904,9 @@ body:after {
 		float: none;
 	}
 	.worker {margin: 10px 0;}
+	.mob-phone, .footer-mob-phone {
+		display: block;
+	}
 	.slider {display: none;}
 	.center-header, .container, .footer-center {
 		width: auto;

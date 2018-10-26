@@ -41,7 +41,8 @@ $this->_script = preg_replace('%window\.addEvent\(\'load\',\s*function\(\)\s*{\s
 <div class="header">
 	<div class="center-header">
 	<a class="logo" href="/"><img src="templates/isti99/images/logo.png" alt="Империя стиля" title="Империя стиля"/></a>
-	
+	<div class="mob-phone">+7(910)279-99-89</div>
+
 	<div class="slider slider2">
 		<div class="sliderContent">
 			<div class="item">
@@ -125,7 +126,7 @@ $this->_script = preg_replace('%window\.addEvent\(\'load\',\s*function\(\)\s*{\s
 <div class="footer">
 	<div itemscope itemtype="http://schema.org/LocalBusiness" class="footer-center vcard">
 		<div class="copyright">&copy; <span class="category">Студия красоты </span><a itemprop="name" class="fn org url" href="http://isti99.ru">Империя стиля.</a> Все права защищены.</div>
-        <div class="footer-contacts"><p><span class="tel" itemprop="telephone">57-38-88</span>, <span class="tel" itemprop="telephone">+7(910)217-21-84</span></p>
+        <div class="footer-contacts"><p><span class="tel" itemprop="telephone">57-38-88</span>, <span class="tel" itemprop="telephone">+7(910)217-21-84</span><span class="footer-mob-phone">+7(910)279-99-89</span> </p>
         <p itemprop="email">i.sti.99@yandex.ru</p>
         <p class="workhours" itemprop="openingHours">пн-вс 10:00-20:00</p>
 		 <div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
