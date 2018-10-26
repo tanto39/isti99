@@ -886,6 +886,15 @@ body:after {
 }
 
 @media all and (max-width: 790px) {
+	.sert img {
+		float: none;
+		margin: 0;
+	}
+	.worker img {
+		margin: 0;
+		float: none;
+	}
+	.worker {margin: 10px 0;}
 	.slider {display: none;}
 	.center-header, .container, .footer-center {
 		width: auto;
