@@ -46,7 +46,7 @@ ul, ol{
 	background: -ms-linear-gradient(top, #fab353 0%,#de8d1e 20%,#de8d1e 80%,#fab353 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #fab353 0%,#de8d1e 20%,#de8d1e 80%,#fab353 100%); /* W3C */
 }
-.topmenu, .leftmenu, .contaner, .content, .worker img, .scroll, .left-img, .right-img, .price-list td:hover{
+.topmenu, .leftmenu, .contaner, .content, .worker img, .scroll, .left-img, .right-img, .center-img, .price-list td:hover{
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.75);
@@ -321,6 +321,10 @@ ul, ol{
 	background: -o-linear-gradient(top, #fce2b5 0%,#ffffff 20%,#ffffff 80%,#fce2b5 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #fce2b5 0%,#ffffff 20%,#ffffff 80%,#fce2b5 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #fce2b5 0%,#ffffff 20%,#ffffff 80%,#fce2b5 100%); /* W3C */
+}
+.center-img {
+	display: block;
+	margin: 0 auto;
 }
 .left-img, .right-img{
 	display: block;
